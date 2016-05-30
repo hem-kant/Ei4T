@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ei4T.Common", "Ei4T.Common", "{8743C903-0E1D-4DA0-A0AF-7593B70EABFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ei4T.Common.Logging", "Ei4T.Common.Logging\Ei4T.Common.Logging.csproj", "{DF68B857-8745-4F2F-A68D-D56DC925C36B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ei4T.CoreServiceClient", "Ei4T.CoreServiceClient", "{F70D6BF9-EC61-4B39-A9AB-C44FBCC192DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ei4T-ExchangeClient", "Ei4T-ExchangeClient", "{F67A90E8-36D6-4E8C-8980-38972281EB16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ei4T.CoreServiceClient", "Ei4T.CoreServiceClient\Ei4T.CoreServiceClient.csproj", "{B1616B4C-3044-4B8D-9E8A-0C0CA9854D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ei4T.ExchangeAuthencation", "Ei4T.ExchangeAuthencation\Ei4T.ExchangeAuthencation.csproj", "{09874713-DF42-43B1-BF20-0DC2B2FA1ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ei4T.Client", "Ei4T.Client\Ei4T.Client.csproj", "{45D3814F-E70B-4BC2-8C90-DB72C5E5DFC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ei4T.Common.Model", "Ei4T.Common.Model\Ei4T.Common.Model.csproj", "{A91E3282-D67E-4172-A3EE-1E8201F27027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF68B857-8745-4F2F-A68D-D56DC925C36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF68B857-8745-4F2F-A68D-D56DC925C36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF68B857-8745-4F2F-A68D-D56DC925C36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF68B857-8745-4F2F-A68D-D56DC925C36B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1616B4C-3044-4B8D-9E8A-0C0CA9854D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1616B4C-3044-4B8D-9E8A-0C0CA9854D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1616B4C-3044-4B8D-9E8A-0C0CA9854D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1616B4C-3044-4B8D-9E8A-0C0CA9854D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09874713-DF42-43B1-BF20-0DC2B2FA1ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09874713-DF42-43B1-BF20-0DC2B2FA1ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09874713-DF42-43B1-BF20-0DC2B2FA1ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09874713-DF42-43B1-BF20-0DC2B2FA1ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D3814F-E70B-4BC2-8C90-DB72C5E5DFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D3814F-E70B-4BC2-8C90-DB72C5E5DFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D3814F-E70B-4BC2-8C90-DB72C5E5DFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D3814F-E70B-4BC2-8C90-DB72C5E5DFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91E3282-D67E-4172-A3EE-1E8201F27027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91E3282-D67E-4172-A3EE-1E8201F27027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91E3282-D67E-4172-A3EE-1E8201F27027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91E3282-D67E-4172-A3EE-1E8201F27027}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF68B857-8745-4F2F-A68D-D56DC925C36B} = {8743C903-0E1D-4DA0-A0AF-7593B70EABFF}
+		{B1616B4C-3044-4B8D-9E8A-0C0CA9854D9B} = {F70D6BF9-EC61-4B39-A9AB-C44FBCC192DA}
+		{09874713-DF42-43B1-BF20-0DC2B2FA1ACD} = {F67A90E8-36D6-4E8C-8980-38972281EB16}
+		{45D3814F-E70B-4BC2-8C90-DB72C5E5DFC7} = {F67A90E8-36D6-4E8C-8980-38972281EB16}
+		{A91E3282-D67E-4172-A3EE-1E8201F27027} = {8743C903-0E1D-4DA0-A0AF-7593B70EABFF}
+	EndGlobalSection
+EndGlobal

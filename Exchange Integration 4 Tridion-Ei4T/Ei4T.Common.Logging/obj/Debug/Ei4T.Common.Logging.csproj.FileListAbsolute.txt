@@ -1,0 +1,7 @@
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Logging\bin\Debug\Ei4T.Common.Logging.dll
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Logging\bin\Debug\Ei4T.Common.Logging.pdb
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Logging\bin\Debug\log4net.dll
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Logging\bin\Debug\log4net.xml
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Logging\obj\Debug\Ei4T.Common.Logging.dll
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Logging\obj\Debug\Ei4T.Common.Logging.pdb
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Logging\obj\Debug\Ei4T.Common.Logging.csprojResolveAssemblyReference.cache

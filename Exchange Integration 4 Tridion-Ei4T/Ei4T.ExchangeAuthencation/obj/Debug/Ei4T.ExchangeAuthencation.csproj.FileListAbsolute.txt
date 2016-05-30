@@ -1,0 +1,6 @@
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.ExchangeAuthencation\bin\Debug\Ei4T.ExchangeAuthencation.dll
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.ExchangeAuthencation\bin\Debug\Ei4T.ExchangeAuthencation.pdb
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.ExchangeAuthencation\bin\Debug\Microsoft.Exchange.WebServices.dll
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.ExchangeAuthencation\obj\Debug\Ei4T.ExchangeAuthencation.dll
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.ExchangeAuthencation\obj\Debug\Ei4T.ExchangeAuthencation.pdb
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.ExchangeAuthencation\obj\Debug\Ei4T.ExchangeAuthencation.csprojResolveAssemblyReference.cache

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1616B4C-3044-4B8D-9E8A-0C0CA9854D9B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ei4T.CoreServiceClient</RootNamespace>
+    <AssemblyName>Ei4T.CoreServiceClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tridion.ContentManager.CoreService.Client">
+      <HintPath>bin\Tridion.ContentManager.CoreService.Client.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoreServiceFramework\CoreSericeFactory.cs" />
+    <Compile Include="CoreServiceFramework\CoreServiceFrameworkContext.cs" />
+    <Compile Include="CoreServiceFramework\CoreServiceFrameworkNetTcpContext.cs" />
+    <Compile Include="CoreServiceFramework\CoreServiceFrameworkWsHttpContext.cs" />
+    <Compile Include="CoreServiceFramework\ICoreServiceFrameworkContext.cs" />
+    <Compile Include="CoreServiceFramework\MaxxedNetTcpBinding.cs" />
+    <Compile Include="CoreServiceFramework\MaxxedWsHttpBinding.cs" />
+    <Compile Include="Generation.cs" />
+    <Compile Include="helper\helper.cs" />
+    <Compile Include="helper\TridionComponent.cs" />
+    <Compile Include="helper\TridionObjectInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ei4T.Common.Logging\Ei4T.Common.Logging.csproj">
+      <Project>{df68b857-8745-4f2f-a68d-d56dc925c36b}</Project>
+      <Name>Ei4T.Common.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ei4T.Common.Model\Ei4T.Common.Model.csproj">
+      <Project>{a91e3282-d67e-4172-a3ee-1e8201f27027}</Project>
+      <Name>Ei4T.Common.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

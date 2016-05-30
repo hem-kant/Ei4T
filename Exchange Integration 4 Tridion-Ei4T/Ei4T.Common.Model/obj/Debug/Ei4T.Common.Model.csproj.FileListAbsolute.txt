@@ -1,0 +1,5 @@
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Model\bin\Debug\Ei4T.Common.Model.dll
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Model\bin\Debug\Ei4T.Common.Model.pdb
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Model\obj\Debug\Ei4T.Common.Model.dll
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Model\obj\Debug\Ei4T.Common.Model.pdb
+D:\Production Project\Exchange Integration 4 Tridion-Ei4T\Ei4T.Common.Model\obj\Debug\Ei4T.Common.Model.csprojResolveAssemblyReference.cache
